@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <h1>Full Name Display</h1>
       <form onSubmit={submitHandler}>
         <label htmlFor="name">First Name:</label>
         <input type="text" id="fname" name="firstName" required onChange={(e)=>{
